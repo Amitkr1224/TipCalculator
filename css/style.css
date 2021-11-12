@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url("../img/3rd.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Heading Part */
+.head h1{
+    margin-bottom: 10px;
+    color:white;
+    /* text-shadow: 1px 1px 1px white; */
+}
+
+/* End Heading */
+
+/* CALC PART */
+.calc{
+    /* width: 30%; */
+    max-width: 500px; height: auto;
+    padding: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #ffeeee;
+    background-color: antiquewhite; 
+}
+label{
+    display: block;
+    padding: 5px;
+    margin-top: 30px
+}
+button{
+    display: block;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    background-image: url("../img/3rd.jpeg");
+    margin-top: 30px;  
+}
+input, select{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+input[type=text]:focus, select:focus{
+    background-color: rgb(238, 199, 128);
+    outline: none;
+    border: none;
+    /* border-radius: 10px; */
+}
+select{
+    justify-content: center;
+}
+
+
+/* END CALC PART */
+
+#totalTip{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#services{
+    text-align: center;
+}
